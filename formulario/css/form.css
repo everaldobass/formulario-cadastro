@@ -1,0 +1,201 @@
+/*====Reset====*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+  
+   background-color: #ccc;
+   font-family: 'Roboto', sans-serif;
+}
+
+#header{
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    align-items: center;
+    
+}
+
+#navbar{
+    width: 100%;
+    height: 70px;
+    top: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #202024;
+    position: fixed;
+
+}
+
+span{
+    color: #52E5E7;
+}
+
+
+.logo{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 15px;
+}
+
+#navbar-items{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+
+#navbar-items li{
+    display: flex;
+    letter-spacing: 3px;
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+    
+    
+}
+
+
+#main{
+    margin-top: 30px;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+}
+
+
+/*===========formulario==========*/
+#main-container{
+    display: flex;
+    width: 70vh;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    
+   
+    
+}
+
+#main-container h1{
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.9rem;
+    color: #333;
+
+}
+
+
+/*=====Formulario======*/
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.full-box{
+    flex: 1 1 100%;
+    position: relative;
+
+}
+
+.half-box{
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing{
+    margin-right: 2.5%;
+}
+
+label{
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    
+}
+
+input{
+    border-style: none;
+    border-bottom: 2px solid #333;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+    height: 40px;
+}
+
+
+input:focus{
+    border-color: #f7b733;
+}
+
+
+input[type="submit"]{
+   background-color: #04d361;
+   color: #202024;
+   border: none;
+   border-radius: 40px;
+   height: 50px;
+   cursor: pointer;
+   font-size: 20px;
+   font-weight: bolder;
+   margin-top: 50px;
+
+}
+
+
+input, label{
+    display: block;
+    outline: none;
+    width: 99%;
+}
+
+#agreement{
+    margin-right: 5px;
+}
+
+#agreement, #agreement-label{
+    display: inline-block;
+    width: auto;
+}
+
+
+
+/*=======footer====*/
+
+#footer{
+   width: 100%;
+   height: 65px;
+   display: flex;
+   background-color: #202024   ;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer-h1{
+    color: white;
+    align-items: center;
+}
+.footer-p{
+    font-size: 1rem;text-align: center;
+}
+
+
